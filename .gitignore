@@ -1,0 +1,48 @@
+# Logs and temporary files
+*.log
+*.out
+*.nohup
+*.tmp
+
+# State files
+*.done
+last_arch_seq_*
+scn_cutoff_*
+
+# OS and editor files
+.DS_Store
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.iml
+
+# Oracle-specific
+*.bak
+*.trm
+*.trc
+audit/*.aud
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.Python
+
+# Database connection strings and secrets
+.env
+.env.local
+*.secret
+*credentials*
+
+# Large backup/archive files (exclude from git)
+*.tar
+*.tar.gz
+*.zip
+
+# Generated directories (should exist but not be tracked)
+log/
+tmp/
+stage/
